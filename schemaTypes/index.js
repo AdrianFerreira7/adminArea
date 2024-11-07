@@ -1,5 +1,5 @@
-import { MissaoValoresType } from "./MissaoValoresType"
+import destaqueDeLinha from "./destaqueDeLinha"
 
-MissaoValoresType
+destaqueDeLinha
 
-export const schemaTypes = []
+export const schemaTypes = [destaqueDeLinha]
