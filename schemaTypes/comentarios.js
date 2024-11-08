@@ -1,13 +1,29 @@
-import {defineField, defineType} from 'sanity'
+import { defineField, defineType } from 'sanity'
 
 export const comentario = defineType({
-  name: 'Comentario',
-  title: 'Comentarios',
+  name: 'comentario', 
+  title: 'Comentários',
   type: 'document',
   fields: [
     defineField({
-      name: 'Missao',
-      type: 'string',
+      name: 'nome',
+      title: 'Nome',
+      type: 'string', 
+    }),
+    defineField({
+      name: 'foto',
+      title: 'Foto',
+      type: 'image', 
+    }),
+    defineField({
+      name: 'avaliacao',
+      title: 'Avaliação 1-5',
+      type: 'number',
+    }),
+    defineField({
+      name: 'review',
+      title: 'Review',
+      type: 'text', 
     }),
   ],
 })
