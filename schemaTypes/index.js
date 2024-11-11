@@ -1,11 +1,14 @@
-import { comentario } from "./comentarios"
-import destaqueDeLinha from "./destaqueDeLinha"
+import { comentario } from './comentarios'
 
-destaqueDeLinha
-comentario
+import destaqueDeLinha from './destaqueDeLinha';
+
+import { ProdutosPremium } from './ProdutosPremium'
+
+import { ProdutosMaisVendidos } from './ProdutosMaisVendidos';
 
 export const schemaTypes = [
-    destaqueDeLinha,
-    comentario,
-
+  destaqueDeLinha,
+  comentario,
+  ProdutosPremium,
+  ProdutosMaisVendidos,
 ]
