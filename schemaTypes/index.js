@@ -1,5 +1,6 @@
 import { MissaoValoresType } from "./MissaoValoresType"
 
-MissaoValoresType
+export const schemaTypes = [MissaoValoresType,ProdutosType]
 
-export const schemaTypes = []
+import { ProdutosType } from "./ProdutosType"
+
