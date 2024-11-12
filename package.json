@@ -15,6 +15,10 @@
     "sanity"
   ],
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@sanity/client": "^6.22.4",
+>>>>>>> 6d68652793c8432444b43df722cddad78b49d7b1
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.61.0",
     "react": "^18.2.0",
